@@ -98,3 +98,8 @@ function yozteng(){
     var inp1 =document.getElementById('inp1');
     inp1.value += "=";
 }
+function hisobla(){
+    var inp1 = document.getElementById('inp1');
+    var natija = eval(inp1.value);
+    inp1.value = natija;
+}
